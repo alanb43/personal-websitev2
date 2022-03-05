@@ -19,6 +19,6 @@ app.config.from_envvar('SWETTER_SETTINGS', silent=True)
 # circular import, which is naughty, but Flask was designed that way.
 # (Reference http://flask.pocoo.org/docs/patterns/packages/)  We're
 # going to tell pylint and pycodestyle to ignore this coding style violation.
-import swetter.api  # noqa: E402  pylint: disable=wrong-import-position
-import swetter.views  # noqa: E402  pylint: disable=wrong-import-position
-import swetter.model  # noqa: E402  pylint: disable=wrong-import-position
+import bergflix.api  # noqa: E402  pylint: disable=wrong-import-position
+import bergflix.views  # noqa: E402  pylint: disable=wrong-import-position
+import bergflix.model  # noqa: E402  pylint: disable=wrong-import-position

@@ -1,1 +1,0 @@
-from swetter.api.index import get_index

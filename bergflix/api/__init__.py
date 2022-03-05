@@ -1,0 +1,1 @@
+from bergflix.api.index import get_index
