@@ -3,16 +3,16 @@ Insta485 python package configuration.
 
 Andrew DeOrio <awdeorio@umich.edu>
 
-Taken for swetter (personal website)
+Taken for bergflix (personal website)
     by Alan Bergsneider <bera@umich.edu>
 """
 
 from setuptools import setup
 
 setup(
-    name='swetter',
+    name='bergflix',
     version='0.1.0',
-    packages=['swetter'],
+    packages=['bergflix'],
     include_package_data=True,
     install_requires=[
         'arrow',
